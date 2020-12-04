@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 12/02/20 12:40:56 by Eclipse SUMO od2trips Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/od2tripsConfiguration.xsd">
+
+    <input>
+        <taz-files value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\taz.add.xml"/>
+        <od-amitran-files value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\input_od.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\trips.trips.xml"/>
+    </output>
+
+    <processing>
+        <vtype value="10"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+	<vType id="0"/></routes>
