@@ -4,7 +4,7 @@
 
     <input>
         <net-file value="greenline.net.xml"/>
-        <additional-files value="vType.trips.xml,taz.add.xml"/>
+        <additional-files value="vType.trips.xml,taz.add.xml,asd.xml"/>
         <route-files value="trips.trips.xml"/>
     </input>
 
