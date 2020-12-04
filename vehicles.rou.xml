@@ -6,7 +6,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocat
 <routes
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <route edges="gneE301 -gneE47.127" color="yellow" id="route_0"/>
-    <flow id="4.4_3" begin="0.00" end="3600.00" vehsPerHour="137.00">
+    <flow id="4.4_3" begin="0.00" end="3600.00" vehsPerHour="137.00" departLane="best">
         <route edges="-gneE17 gneE188 gneE64" color="cyan"/>
     </flow>
 </routes>
