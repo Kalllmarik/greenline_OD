@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated on 12/04/20 17:00:30 by Eclipse SUMO netedit Version 1.8.0
+<!-- generated on 12/05/20 02:34:51 by Eclipse SUMO netedit Version 1.8.0
 <configuration
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd"><input><sumo-net-file value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\greenline.net.xml"/></input><output><output-file value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\greenline.net.xml"/></output><processing><geometry.min-radius.fix.railways value="false"/><geometry.max-grade.fix value="false"/><offset.disable-normalization value="true"/><lefthand value="false"/></processing><junctions><no-turnarounds value="true"/><junctions.corner-detail value="5"/><junctions.limit-turn-speed value="5.5"/><rectangular-lane-cut value="false"/></junctions><pedestrian><walkingareas value="false"/></pedestrian><netedit><additional-files value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\taz.add.xml"/><route-files value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\vehicles.rou.xml"/></netedit><report><aggregate-warnings value="5"/></report></configuration>
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd"><input><sumo-net-file value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\greenline.net.xml"/></input><output><output-file value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\greenline.net.xml"/></output><processing><geometry.min-radius.fix.railways value="false"/><geometry.max-grade.fix value="false"/><offset.disable-normalization value="true"/><lefthand value="false"/></processing><junctions><no-turnarounds value="true"/><junctions.corner-detail value="5"/><junctions.limit-turn-speed value="5.5"/><rectangular-lane-cut value="false"/></junctions><pedestrian><walkingareas value="false"/></pedestrian><netedit><route-files value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\vehicles.rou.xml"/></netedit><report><aggregate-warnings value="5"/></report></configuration>
 -->
 <routes
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
-    <route edges="gneE301 -gneE47.127" color="yellow" id="route_0"/>
-    <flow id="4.4_3" begin="0.00" end="3600.00" vehsPerHour="137.00" departLane="best">
+    <vType id="passenger" length="4.30" minGap="2.00" maxSpeed="180.00" guiShape="passenger/sedan" color="red" carFollowModel="IDM" decel="7.8" sigma="1"/>
+    <flow id="4.4_1-5.3_1" type="passenger" begin="0.00" departLane="best" end="3600.00" vehsPerHour="3.00">
+        <route edges="-gneE17 -gneE16 -gneE62 -gneE61 -gneE60 -gneE59 -gneE82 -gneE81 -gneE80 gneE86 gneE87 gneE88 gneE89 gneE90 gneE239" color="cyan"/>
+    </flow>
+    <flow id="4.4_1-6.3_4" type="passenger" begin="0.00" departLane="best" end="3600.00" vehsPerHour="50.00">
+        <route edges="-gneE17 -gneE16 -gneE62 -gneE61 -gneE60 -gneE59 gneE83" color="cyan"/>
+    </flow>
+    <flow id="4.4_1-8.3_1" type="passenger" begin="0.00" departLane="best" end="3600.00" vehsPerHour="1000.00">
+        <route edges="-gneE17 -gneE16 -gneE62 -gneE61 -gneE60 -gneE59 -gneE58 -gneE57 -gneE56 -gneE56.123" color="cyan"/>
+    </flow>
+    <flow id="4.4_1-8.3_2" type="passenger" begin="0.00" departLane="best" end="3600.00" vehsPerHour="25.00">
+        <route edges="-gneE17 -gneE16 -gneE62 -gneE61 -gneE60 -gneE59 -gneE58 -gneE57 -gneE56 gneE326" color="cyan"/>
+    </flow>
+    <flow id="4.4_1-8.3_4" type="passenger" begin="0.00" departLane="best" end="3600.00" vehsPerHour="50.00">
+        <route edges="-gneE17 -gneE16 -gneE62 -gneE61 -gneE60 -gneE59 -gneE58 -gneE57 -gneE56 gneE328" color="cyan"/>
+    </flow>
+    <flow id="4.4_2-1.4_2" type="passenger" begin="0.00" departLane="best" end="3600.00" vehsPerHour="699.98">
+        <route edges="-gneE17 -gneE16 -gneE15 -gneE14 -gneE13 gneE12 -gneE11 -gneE10 -gneE9 -gneE8 -gneE7" color="cyan"/>
+    </flow>
+    <flow id="4.4_2-5.3_1" type="passenger" begin="0.00" departLane="best" end="3600.00" vehsPerHour="60.00">
+        <route edges="-gneE17 -gneE16 -gneE15 -gneE14 gneE28 gneE29 gneE84 gneE84.39 gneE85 gneE86 gneE87 gneE88 gneE89 gneE90 gneE239" color="cyan"/>
+    </flow>
+    <flow id="4.4_2-7.3_1" type="passenger" begin="0.00" departLane="best" end="3600.00" vehsPerHour="240.00">
+        <route edges="-gneE17 -gneE16 -gneE15 -gneE14 -gneE13 gneE12 -gneE11 -gneE10 -gneE9 gneE34 gneE35 gneE36 gneE37 gneE38 gneE39 gneE40 gneE41 gneE42 gneE43 -gneE44" color="cyan"/>
+    </flow>
+    <flow id="4.4_2-7.3_2" type="passenger" begin="0.00" departLane="best" end="3600.00" vehsPerHour="60.00">
+        <route edges="-gneE17 -gneE16 -gneE15 -gneE14 -gneE13 gneE12 -gneE11 -gneE10 -gneE9 gneE34 gneE35 gneE36 gneE37 gneE38 gneE39 -gneE179" color="cyan"/>
+    </flow>
+    <flow id="4.4_3" type="passenger" begin="0.00" departLane="best" end="3600.00" vehsPerHour="137.00">
         <route edges="-gneE17 gneE188 gneE64" color="cyan"/>
     </flow>
 </routes>
