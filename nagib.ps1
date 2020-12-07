@@ -1,1 +1,0 @@
-& "C:\Program Files (x86)\Eclipse\Sumo\bin\sumo-gui"
