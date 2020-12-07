@@ -1,9 +1,10 @@
 #pip3 install xmltodict
 
 import csv
+from io import TextIOWrapper
 import xmltodict
 
-def readInputFile(nameFile):
+def readInputFile(nameFile: TextIOWrapper):
   csv_reader = csv.reader(nameFile, delimiter=';')
   header = next(csv_reader)
 
