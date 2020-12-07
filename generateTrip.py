@@ -10,18 +10,17 @@ def readInputFile(nameFile):
   od = []
 
   if header != None:
-    for column in header[1:]:
-      for rows in csv_reader:
-        row = rows[0]
-        for car in rows[1:]:
-          if int(car) != 0:
-            od.append({
-              '@amount': int(car),
-              '@origin': column,
-              '@destination': row
-            })
+    for rows in csv_reader:
+      row = rows[0]
+      for idx, car in enumerate(rows[1:]):
+        if int(car) != 0:
+          od.append({
+            '@amount': int(car),
+            '@origin': header[idx + 1],
+            '@destination': row
+          })
 
-  file_name = f'{nameFile.name}.trips.xml'
+  file_name = f'{nameFile.name}.od.xml'
   with open(file_name, 'w') as x_file:
     x_file.write(xmltodict.unparse({
       'actorConfig': {
