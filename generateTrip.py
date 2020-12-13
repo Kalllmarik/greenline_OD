@@ -35,5 +35,5 @@ def readInputFile(nameFile: TextIOWrapper):
     }, pretty=True))
 
 if __name__ == "__main__":
-  with open("morning40.csv") as file:
+  with open("out_in\csv\morning_in.csv") as file:
     readInputFile(file)

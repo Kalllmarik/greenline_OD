@@ -5,14 +5,14 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/od2tripsConfiguration.xsd">
     <input>
         <taz-files value="taz.add.xml"/>
-        <od-amitran-files value="input_od.xml"/>
+        <od-amitran-files value="out_in\csv\morning.csv.od.xml"/>
     </input>
     <output>
-        <output-file value="trips.trips.xml"/>
+        <output-file value="morning.trips.xml"/>
     </output>
-    <processing>
-        <vtype value="10"/>
-    </processing>
+    <defaults>
+        <departlane value='best'/>
+    </defaults>
     <report>
         <verbose value="true"/>
     </report>

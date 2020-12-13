@@ -3,8 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
     <input>
         <net-file value="greenline.net.xml"/>
-        <route-files value="vehicles.rou.xml"/>
-        <additional-files value="vType.trips.xml,taz.add.xml,trips.trips.xml,generate.edge.add.xml"/>
+        <!-- <route-files value="vehicles.rou.xml"/> -->
+        <additional-files value="vType.trips.xml,taz.add.xml,morning.trips.xml,generate.edge.add.xml"/>
     </input>
     <processing>
         <ignore-route-errors value="true"/>
@@ -14,13 +14,11 @@
             <no-step-log value="true"/>
         </report>
     </processing>
-    <routing>
-        <device.rerouting.adaptation-steps value="60"/>
-    </routing>
+    <!-- <routing><device.rerouting.adaptation-steps value="60"/></routing> -->
     <time>
         <begin value="0"/>
-        <end value="5400"/>
-        <step-length value="0.1"/>
+        <end value="15000"/>
+        <step-length value="1"/>
     </time>
     <gui_only>
         <gui-settings-file value="gui.settings.xml"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 12/13/20 19:40:57 by Eclipse SUMO netedit Version 1.8.0
+<!-- generated on 12/13/20 21:07:20 by Eclipse SUMO netedit Version 1.8.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -28,10 +28,6 @@
     <pedestrian>
         <walkingareas value="false"/>
     </pedestrian>
-
-    <netedit>
-        <additional-files value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\taz.add.xml"/>
-    </netedit>
 
     <report>
         <aggregate-warnings value="5"/>
@@ -7812,10 +7808,10 @@
         <phase duration="5"  state="rrrrrrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="gneJ24" type="static" programID="0" offset="0">
-        <phase duration="25" state="GGGGGGrrrrrrrrrrrrr"/>
-        <phase duration="65" state="GGGGrrrrrrGGGGgrrrr"/>
+        <phase duration="25" state="GGGGGrrrrrrrrrrrrrr"/>
+        <phase duration="65" state="GGGGrrrrrrGGGGrrrrr"/>
         <phase duration="5"  state="rrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="30" state="rrrrrrGGGgrrrrrGGGg"/>
+        <phase duration="30" state="rrrrrrGGGgrrrrGGGGg"/>
         <phase duration="5"  state="rrrrrrrrrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="gneJ37" type="static" programID="0" offset="0">
@@ -9940,12 +9936,7 @@
         <request index="3" response="00000" foes="00000" cont="0"/>
         <request index="4" response="00000" foes="00000" cont="0"/>
     </junction>
-    <junction id="gneJ543" type="priority" x="1233.61" y="724.49" incLanes="-gneE589_0 gneE33_0 gneE33_1" intLanes=":gneJ543_0_0 :gneJ543_1_0 :gneJ543_2_0 :gneJ543_2_1" shape="1241.08,723.75 1240.45,717.38 1238.22,717.16 1237.41,716.68 1236.82,715.96 1236.44,714.99 1236.26,713.78 1229.87,714.11 1229.55,716.55 1229.04,717.45 1228.30,718.13 1227.32,718.59 1226.12,718.84 1226.78,725.20">
-        <request index="0" response="1100" foes="1100" cont="0"/>
-        <request index="1" response="0000" foes="0000" cont="0"/>
-        <request index="2" response="0000" foes="0001" cont="0"/>
-        <request index="3" response="0000" foes="0001" cont="0"/>
-    </junction>
+    <junction id="gneJ543" type="unregulated" x="1233.61" y="724.49" incLanes="-gneE589_0 gneE33_0 gneE33_1" intLanes=":gneJ543_0_0 :gneJ543_1_0 :gneJ543_2_0 :gneJ543_2_1" shape="1241.08,723.75 1240.45,717.38 1238.22,717.16 1237.41,716.68 1236.82,715.96 1236.44,714.99 1236.26,713.78 1229.87,714.11 1229.55,716.55 1229.04,717.45 1228.30,718.13 1227.32,718.59 1226.12,718.84 1226.78,725.20"/>
     <junction id="gneJ545" type="priority" x="1209.58" y="192.33" incLanes="-gneE588_0 gneE28_0 gneE28_1" intLanes=":gneJ545_0_0 :gneJ545_1_0 :gneJ545_2_0 :gneJ545_2_1" shape="1206.75,202.86 1213.15,202.64 1213.51,200.38 1214.04,199.58 1214.80,198.99 1215.78,198.62 1217.00,198.47 1216.77,192.07 1202.33,192.65 1202.61,199.04 1204.85,199.39 1205.65,199.91 1206.23,200.66 1206.60,201.65">
         <request index="0" response="1100" foes="1100" cont="0"/>
         <request index="1" response="0000" foes="0000" cont="0"/>
@@ -10961,7 +10952,7 @@
     <connection from="-gneE587" to="gneE32.151.86.81" fromLane="0" toLane="0" via=":gneJ546_3_0" dir="r" state="m"/>
     <connection from="-gneE587" to="-gneE32.108" fromLane="0" toLane="1" via=":gneJ546_4_0" dir="l" state="m"/>
     <connection from="-gneE588" to="gneE28.119" fromLane="0" toLane="0" via=":gneJ545_0_0" dir="r" state="m"/>
-    <connection from="-gneE589" to="gneE33.105" fromLane="0" toLane="0" via=":gneJ543_0_0" dir="r" state="m"/>
+    <connection from="-gneE589" to="gneE33.105" fromLane="0" toLane="0" via=":gneJ543_0_0" dir="r" state="M"/>
     <connection from="-gneE69" to="-gneE69.43" fromLane="0" toLane="0" via=":gneJ267_0_0" dir="s" state="M"/>
     <connection from="-gneE69" to="gneE357" fromLane="0" toLane="0" via=":gneJ267_1_0" dir="l" state="m"/>
     <connection from="-gneE69.43" to="gneE534" fromLane="0" toLane="0" via=":gneJ265_0_0" dir="s" state="M"/>
