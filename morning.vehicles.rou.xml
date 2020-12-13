@@ -75,7 +75,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocat
     <flow id="7.1_3-1.1_3" type="passenger" begin="0.00" departLane="best" end="3600.00" vehsPerHour="500.00">
         <route edges="gneE385 gneE385.126 gneE385.441 gneE385.600 gneE385.600.137 gneE386 gneE386.42 gneE386.104 gneE386.243 gneE403 gneE403.61 gneE548 gneE548.96 gneE548.141 gneE549 gneE549.67" color="cyan"/>
     </flow>
-    <flow id="7.1_3-2.2_3" type="passenger" begin="0.00" departLane="best" end="3600.00" vehsPerHour="340.00">
+    <flow id="7.1_3-2.2_3" type="passenger" begin="0.00" departLane="best" end="3600.00" vehsPerHour="100.00">
         <route edges="gneE385 gneE385.126 gneE385.441 gneE385.600 gneE385.600.137 gneE386 gneE386.42 gneE386.104 gneE386.243 gneE403 gneE403.61 gneE548 gneE560 gneE556 gneE567 gneE567.74" color="cyan"/>
     </flow>
     <flow id="7.1_3-3.2_3" type="passenger" begin="0.00" departLane="best" end="3600.00" vehsPerHour="50.00">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 12/13/20 20:17:35 by Eclipse SUMO netedit Version 1.8.0
+<!-- generated on 12/14/20 01:39:38 by Eclipse SUMO netedit Version 1.8.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -29,10 +29,6 @@
         <walkingareas value="false"/>
     </pedestrian>
 
-    <netedit>
-        <additional-files value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\taz.add.xml"/>
-    </netedit>
-
     <report>
         <aggregate-warnings value="5"/>
     </report>
@@ -45,7 +41,7 @@
         <phase duration="25" state="GGGGGrrrrrrrrrrrrrr"/>
         <phase duration="65" state="GGGGrrrrrrGGGGrrrrr"/>
         <phase duration="5" state="rrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="30" state="rrrrrrGGGgrrrrGGGGg"/>
+        <phase duration="30" state="rrrrrGGGGgrrrrGGGGg"/>
         <phase duration="5" state="rrrrrrrrrrrrrrrrrrr"/>
     </tlLogic>
 </additional>
