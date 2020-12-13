@@ -7,7 +7,6 @@
         <additional-files value="vType.trips.xml,taz.add.xml,morning.trips.xml,generate.edge.add.xml"/>
     </input>
     <processing>
-        <ignore-route-errors value="true"/>
         <report>
             <verbose value="true"/>
             <duration-log.statistics value="true"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 12/14/20 00:13:46 by Eclipse SUMO GUI Version 1.8.0
+<!-- generated on 12/14/20 01:29:12 by Eclipse SUMO GUI Version 1.8.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -14,10 +14,6 @@
         <end value="15000"/>
         <step-length value="1"/>
     </time>
-
-    <processing>
-        <ignore-route-errors value="true"/>
-    </processing>
 
     <report>
         <verbose value="true"/>
