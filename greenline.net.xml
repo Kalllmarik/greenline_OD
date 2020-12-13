@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 12/13/20 18:18:59 by Eclipse SUMO netedit Version 1.8.0
+<!-- generated on 12/13/20 19:40:57 by Eclipse SUMO netedit Version 1.8.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -8548,7 +8548,6 @@
         <request index="1" response="000" foes="000" cont="0"/>
         <request index="2" response="000" foes="000" cont="0"/>
     </junction>
-    <junction id="gneJ246" type="dead_end" x="-534.72" y="-238.88" incLanes="" intLanes="" shape="-534.72,-238.88"/>
     <junction id="gneJ248" type="dead_end" x="1022.43" y="275.27" incLanes="gneE342_0" intLanes="" shape="1022.43,275.27 1019.62,276.80 1025.24,273.73"/>
     <junction id="gneJ249" type="priority" x="906.77" y="-111.64" incLanes="gneE531.49_0 gneE531.49_1 gneE531.49_2 gneE531.49_3 gneE349_0" intLanes=":gneJ249_0_0 :gneJ249_1_0 :gneJ249_1_1 :gneJ249_1_2 :gneJ249_1_3 :gneJ249_5_0" shape="908.95,-98.80 909.15,-111.60 894.42,-111.95 894.10,-99.15 896.15,-98.69 896.72,-98.15 896.97,-97.42 896.93,-96.49 896.57,-95.36 902.48,-92.91 903.35,-94.73 904.30,-96.21 905.33,-97.36 906.45,-98.18 907.66,-98.66">
         <request index="0" response="000000" foes="000000" cont="0"/>
