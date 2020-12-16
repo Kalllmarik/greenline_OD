@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 12/13/20 14:37:53 by Eclipse SUMO netedit Version 1.8.0
+<!-- generated on 12/16/20 15:17:26 by Eclipse SUMO netedit Version 1.8.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD_old_copy\greenline.net.xml"/>
+        <sumo-net-file value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\greenline.net.xml"/>
     </input>
 
     <output>
-        <output-file value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD_old_copy\greenline.net.xml"/>
+        <output-file value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\greenline.net.xml"/>
     </output>
 
     <processing>
@@ -38,9 +38,11 @@
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <tlLogic id="gneJ40" type="static" programID="0" offset="0">
-        <phase duration="42" state="GGgrrGG"/>
-        <phase duration="3" state="yyyrryy"/>
-        <phase duration="42" state="GGGGGrr"/>
-        <phase duration="3" state="yyyyyrr"/>
+        <phase duration="24" state="GGGGGGrr"/>
+        <phase duration="3" state="yyyyyyrr"/>
+        <phase duration="3" state="rrrrrrrr"/>
+        <phase duration="24" state="GGrrrrGG"/>
+        <phase duration="3" state="yyrrrryy"/>
+        <phase duration="3" state="rrrrrrrr"/>
     </tlLogic>
 </additional>
