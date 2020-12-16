@@ -13,7 +13,12 @@
             <no-step-log value="true"/>
         </report>
     </processing>
-    <!-- <routing><device.rerouting.probability value="1"/><device.rerouting.period value="60"/><device.rerouting.with-taz value="true"/><device.rerouting.threads value="4"/></routing> -->
+    <routing>
+        <device.rerouting.probability value="1"/>
+        <device.rerouting.period value="60"/>
+        <device.rerouting.with-taz value="true"/>
+        <device.rerouting.threads value="4"/>
+    </routing>
     <time>
         <begin value="0"/>
         <end value="4500"/>

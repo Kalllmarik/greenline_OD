@@ -1,48 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!-- generated on 12/15/20 12:49:13 by Eclipse SUMO netedit Version 1.8.0
-<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
-
-    <input>
-        <sumo-net-file value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\greenline.net.xml"/>
-    </input>
-
-    <output>
-        <output-file value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\greenline.net.xml"/>
-    </output>
-
-    <processing>
-        <geometry.min-radius.fix.railways value="false"/>
-        <geometry.max-grade.fix value="false"/>
-        <offset.disable-normalization value="true"/>
-        <lefthand value="false"/>
-    </processing>
-
-    <junctions>
-        <no-turnarounds value="true"/>
-        <junctions.corner-detail value="5"/>
-        <junctions.limit-turn-speed value="5.5"/>
-        <rectangular-lane-cut value="false"/>
-    </junctions>
-
-    <pedestrian>
-        <walkingareas value="false"/>
-    </pedestrian>
-
-    <report>
-        <aggregate-warnings value="5"/>
-    </report>
-
-</configuration>
+<!-- generated on 12/16/20 18:54:31 by Eclipse SUMO netedit Version 1.8.0
+<configuration
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd"><input><sumo-net-file value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\greenline.net.xml"/></input><output><output-file value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\greenline.net.xml"/></output><processing><geometry.min-radius.fix.railways value="false"/><geometry.max-grade.fix value="false"/><offset.disable-normalization value="true"/><lefthand value="false"/></processing><junctions><no-turnarounds value="true"/><junctions.corner-detail value="5"/><junctions.limit-turn-speed value="5.5"/><rectangular-lane-cut value="false"/></junctions><pedestrian><walkingareas value="false"/></pedestrian><report><aggregate-warnings value="5"/></report></configuration>
 -->
-
-<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+<additional
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <tlLogic id="7" type="static" programID="0" offset="0">
-        <phase duration="28" state="rrGGGGGGGGGg"/>
-        <phase duration="3" state="rryyyyyyyyyy"/>
-        <phase duration="3" state="rrrrrrrrrrrr"/>
-        <phase duration="30" state="GGGrrrrrrrrr"/>
-        <phase duration="3" state="yyyrrrrrrrrr"/>
-        <phase duration="3" state="rrrrrrrrrrrr"/>
+        <phase duration="28" state="rrGGGGGGGGGgg"/>
+        <phase duration="3" state="rryyyyyyyyyyy"/>
+        <phase duration="3" state="rrrrrrrrrrrrr"/>
+        <phase duration="30" state="GGGrrrrrrrrrr"/>
+        <phase duration="3" state="yyyrrrrrrrrrr"/>
+        <phase duration="3" state="rrrrrrrrrrrrr"/>
     </tlLogic>
 </additional>
