@@ -15,8 +15,10 @@
     </processing>
     <routing>
         <device.rerouting.probability value="1"/>
-        <device.rerouting.period value="60"/>
+        <device.rerouting.period value="30"/>
+        <device.rerouting.pre-period value="10"/>
         <device.rerouting.with-taz value="true"/>
+        <device.rerouting.adaptation-weight value="1"/>
         <device.rerouting.threads value="4"/>
     </routing>
     <time>
