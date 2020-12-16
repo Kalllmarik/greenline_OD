@@ -1,5 +1,5 @@
 <viewsettings>
     <scheme name="greenline"/>
     <delay value="66"/>
-    <decal file="background_img.jpg" centerX="556.53" centerY="575.53" centerZ="0.00" width="1990.00" height="1380.00" altitude="0.00" rotation="12.00" tilt="0.00" roll="0.00" layer="0.00" screenRelative="0"/>
+    <decal file="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\background\background_img.jpg" centerX="556.53" centerY="575.53" centerZ="0.00" width="1990.00" height="1380.00" altitude="0.00" rotation="12.00" tilt="0.00" roll="0.00" layer="0.00" screenRelative="0"/>
 </viewsettings>
