@@ -4,12 +4,8 @@
 <configuration
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/od2tripsConfiguration.xsd">
     <input>
-        <taz-files value="taz.add.xml"/>
-        <od-amitran-files value="out_in/csv/morning.csv.od.xml"/>
+        <taz-files value="../../taz.add.xml"/>
     </input>
-    <output>
-        <output-file value="morning.trips.xml"/>
-    </output>
     <defaults>
         <departlane value='best'/>
     </defaults>
