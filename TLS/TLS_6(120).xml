@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 12/25/20 21:27:09 by Eclipse SUMO netedit Version 1.8.0
+<!-- generated on 12/25/20 14:59:09 by Eclipse SUMO netedit Version 1.8.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -37,13 +37,14 @@
 -->
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
-    <tlLogic id="gneJ563" type="static" programID="0" offset="0">
-        <phase duration="33" state="GGGGGGGrrrrrr"/>
-        <phase duration="3" state="yyyyyyyrrrrrr"/>
-        <phase duration="33" state="GGGGrrrrGGGGG"/>
-        <phase duration="3" state="yyyyrrrryyyyy"/>
-        <phase duration="3" state="rrrrrrrrrrrrr"/>
-        <phase duration="42" state="rrrrrrGGGrrrr"/>
-        <phase duration="3" state="rrrrrryyyrrrr"/>
+    <tlLogic id="6" type="static" programID="0" offset="0">
+        <phase duration="20" state="rrrrGGGGGGGrrrrrrrrrrr"/>
+        <phase duration="3" state="rrrrGGGGGyyrrrrrrrrrrr"/>
+        <phase duration="45" state="rrrrGGGGGrrrrrrGGGGGgg"/>
+        <phase duration="3" state="rrrryyyyyrrrrrryyyyyyy"/>
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="40" state="GGggrrrrrrrGGggrrrrrrr"/>
+        <phase duration="3" state="yyyyrrrrrrryyyyrrrrrrr"/>
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrrrrrr"/>
     </tlLogic>
 </additional>
