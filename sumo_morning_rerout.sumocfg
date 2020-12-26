@@ -23,7 +23,7 @@
     </routing>
     <time>
         <begin value="0"/>
-        <end value="4500"/>
+        <end value="6400"/>
         <step-length value="1"/>
     </time>
     <gui_only>
