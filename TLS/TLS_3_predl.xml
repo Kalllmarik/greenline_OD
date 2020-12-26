@@ -6,13 +6,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocat
 <additional
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <tlLogic id="3" type="static" programID="0" offset="0">
-        <phase duration="22" state="GGGGGGrrrrrrrrrrrrrrr"/>
-        <phase duration="3" state="GGGGyyrrrrrrrrrrrrrrr"/>
-        <phase duration="63" state="GGGGrrrrrrrGGGGgrrrrr"/>
-        <phase duration="3" state="yyyyrrrrrrryyyyyrrrrr"/>
-        <phase duration="3" state="rrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="30" state="rrrrrrGGGggrrrrrGGGgg"/>
-        <phase duration="3" state="rrrrrryyyyyrrrrryyyyy"/>
-        <phase duration="3" state="rrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="22" state="GGGGGGrrrrrrrrrrrrrr"/>
+        <phase duration="3" state="GGGGyyrrrrrrrrrrrrrr"/>
+        <phase duration="63" state="GGGGrrrrrrrGGGGgrrrr"/>
+        <phase duration="3" state="yyyyrrrrrrryyyyyrrrr"/>
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="30" state="rrrrrrGGGggrrrrrGGGg"/>
+        <phase duration="3" state="rrrrrryyyyyrrrrryyyy"/>
+        <phase duration="3" state="rrrrrrrrrrrrrrrrrrrr"/>
     </tlLogic>
 </additional>
