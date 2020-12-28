@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 12/17/20 12:39:57 by Eclipse SUMO netedit Version 1.8.0
+<!-- generated on 12/28/20 10:27:56 by Eclipse SUMO netedit Version 1.8.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -29,6 +29,10 @@
         <walkingareas value="false"/>
     </pedestrian>
 
+    <netedit>
+        <additional-files value="D:\MEGA\Greenline\Greenline_sumo\greenline_OD\taz.add.xml"/>
+    </netedit>
+
     <report>
         <aggregate-warnings value="5"/>
     </report>
@@ -38,9 +42,13 @@
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <tlLogic id="gneJ76" type="static" programID="0" offset="0">
-        <phase duration="27" state="rrrrGGggrrrrGGgg"/>
-        <phase duration="3" state="rrrryyyyrrrryyyy"/>
-        <phase duration="27" state="GGggrrrrGGggrrrr"/>
+        <phase duration="21" state="rrrrGGGGrrrrrrrr"/>
+        <phase duration="3" state="rrrryyyyrrrrrrrr"/>
+        <phase duration="21" state="rrrrrrrrrrrrGGGG"/>
+        <phase duration="3" state="rrrrrrrrrrrryyyy"/>
+        <phase duration="3" state="rrrrrrrrrrrrrrrr"/>
+        <phase duration="33" state="GGggrrrrGGggrrrr"/>
         <phase duration="3" state="yyyyrrrryyyyrrrr"/>
+        <phase duration="3" state="rrrrrrrrrrrrrrrr"/>
     </tlLogic>
 </additional>
