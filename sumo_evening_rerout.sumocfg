@@ -23,8 +23,8 @@
     </routing>
     <time>
         <begin value="0"/>
-        <end value="7500"/>
-        <step-length value="1"/>
+        <end value="6400"/>
+        <step-length value="0.2"/>
     </time>
     <gui_only>
         <gui-settings-file value="gui.settings.xml"/>
